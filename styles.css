@@ -1,0 +1,40 @@
+body {
+    background-color: pink;
+    padding:0;
+}  
+nav {
+        background-color: white;
+        margin:0;
+        padding:10px;
+        position: fixed;
+        font-size: 1.2em;
+
+}
+
+nav a {
+    padding: 10px 20px;
+}
+
+.slide{
+    border:2px solid thistle;
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+   
+}
+#Blog{
+    background-image: url("http://www.liberaldictionary.com/wp-content/uploads/2019/02/la-0675.jpg");
+}
+#my-profile-pic{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8BcV0ccYWD6T8QhDxMMZ9YGRRyVxU19F-CFJghMjdp19uAzsDEg");
+    height: 32%;
+    width: 34%;
+}
+
+#About{
+    background-image: url("https://n4-q.mafengwo.net/s10/M00/20/67/wKgBZ1of_uiAaUdLABK3FcfqRpw69.jpeg?imageView2%2F2%2Fw%2F800%2Fq%2F90");
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+
+}
